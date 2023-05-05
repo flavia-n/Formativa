@@ -1,0 +1,682 @@
+/*////////////////////DESKTOP////////////////////*/
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family:inherit;
+    background-color: #d7f1c1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+@font-face{
+    font-family:inherit;
+    src:url('../fonts/Arkitech\ Medium.ttf') format('truetype')
+}
+ 
+
+header{
+    height: 110px;
+    background-color:hsl(0deg 0% 0.78%);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#logo{
+    height: 80px;
+    padding: 15px 30px;
+    width: 100px;
+}
+
+header nav{
+    align-self: flex-end;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+   
+}
+header nav a {
+    text-decoration: none;
+    color:rgb(183, 239, 178);
+    padding: 15px 15px;
+    font-family:inherit;
+    font-size: 15px;
+    text-align: center;
+}
+
+header h1{
+color: rgb(183, 239, 178);
+}
+
+footer{
+    background-color:hsl(0deg 0% 0.78%);;
+    color:white;
+    font-size: 16px;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer span{
+    font-family:inherit;
+    font-size: 15px;
+    color:rgb(183, 239, 178);
+}
+
+footer p{
+    font-family:inherit;
+    font-size: 17px;
+    color:rgb(183, 239, 178);
+    margin: 5px;
+}
+
+body h3{
+    margin: 0px;
+    padding:0px;
+}
+/*/////////////////////////////////////////////////////////////////////////*/
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+body{
+    font-family:inherit;
+    background-color: white;
+    text-align: center;
+}
+
+#container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3 {
+    margin: 35px 0px;
+}
+
+
+/*///////////mapa//////////////*/
+
+#grafico-mapa {
+    width: 1200px;
+    height: 600px !important;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+/*///////////////////tabela//////////////////*/
+
+#grafico-tabela{
+    width: 1000px;
+    height: 500px;
+    margin: 50px;
+ 
+}
+
+#text{
+    padding-left: 59px;
+    padding-right: 59px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+#tabela-dados{
+    width: 50%px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 35px;
+}
+
+th {
+    background-color:rgb(9, 57, 5);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 2px 10px;
+}
+
+.listra {
+    background-color: rgb(181, 214, 178);
+}
+
+
+#grafico-tabela {
+    background-color: firebrick;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: none;
+    display: none;       
+    margin: 25px 0px;
+}
+
+#separar{
+    padding-bottom: 45px;
+}
+
+
+/*//////////////////imagem//////////////////*/
+
+
+#sobre-imagem {
+    width: 100%;      
+    display: flex;            
+}
+
+#imagem-sobre {
+    width: 30%;
+    
+}
+
+#sobre-imagem2 { /*//meche o texto///*/
+    width: 70%;    
+    border-radius: 10px;       
+    text-align:left;
+    padding-bottom: 30px;
+    margin: 36px 50px;
+    margin-top: 19px;
+}
+
+#imagem-sobre p {
+    color:black;
+    
+}
+
+#vacina{
+    width: 100%;
+    margin: 36px 15px;
+    
+}
+/*////////////pizza////////////////////*/
+
+#grafico-pizza {
+    width:900px;
+    height:600px;
+    margin-left: 230px;
+}
+
+h1, h3, h2 {
+    margin: 25px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////////////////TABLET//////////////////////////////////////////////*/
+
+@media(min-width:577px) and (max-width:992px){
+    body{
+        border: 0;
+        margin: 0;
+        padding: 0;
+        font-family:inherit;
+        background-color: #d7f1c1;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    @font-face{
+        font-family:inherit;
+        src:url('../fonts/Arkitech\ Medium.ttf') format('truetype')
+    }
+     
+    
+    header{
+        height: 110px;
+        background-color:hsl(0deg 0% 0.78%);
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    #logo{
+        width: 70px;
+        height: 60px;
+    }
+    
+   nav{
+        text-align: center;
+        
+       
+    }
+    header nav a {
+        text-decoration: none;
+        color:rgb(183, 239, 178);
+        padding: 4px 4px;
+        font-family:inherit;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    header h1{
+    color: rgb(183, 239, 178);
+    font-size: 16px;
+    margin: 0px;
+    margin-top: 30px;
+
+    }
+    
+    footer{
+        background-color:hsl(0deg 0% 0.78%);;
+        color:white;
+        font-size: 16px;
+        text-align: center;
+        
+        
+    }
+    
+    
+    
+    footer p{
+        font-family:inherit;
+        font-size: 17px;
+        color:rgb(183, 239, 178);
+        margin: 5px;
+    }
+    
+    body h3{
+        margin-left: 320px;
+        padding:0px;
+        margin-left: 20px;
+        font-size: 15px;
+        
+    }
+
+    body h2{
+        font-size: 20px;
+    }
+    /*/////////////////////////////////////////////////////////////////////////*/
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    body{
+        font-family:inherit;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    #container{
+        width: 20px;
+        height: 30px;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    h3 {
+        margin-right: 10px;
+        
+    }
+    
+    
+    /*///////////mapa//////////////*/
+    
+    #grafico-mapa {
+        width: 700px;
+        height: 600px !important;
+        margin-top: 605px;
+        margin-bottom: 30px;
+        margin-left: 60px;
+       
+    }
+    
+    
+
+
+    /*///////////////////tabela//////////////////*/
+    
+    #grafico-tabela{
+        width: 1000px;
+        height: 500px;
+        margin: 50px;
+     
+    }
+    
+    #text{
+        padding-left: 59px;
+        padding-right: 59px;
+        padding-top: 60px;
+        text-align: center;
+    }
+    
+    #tabela-dados{
+        width: 50%px;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 35px;
+    }
+    
+    th {
+        background-color:rgb(9, 57, 5);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 2px 10px;
+    }
+    
+    .listra {
+        background-color: rgb(181, 214, 178);
+    }
+
+    
+    #grafico-tabela {
+        background-color: firebrick;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 10px;
+        border: none;
+        display: none;       
+        margin: 25px 0px;
+    }
+    
+    #separar{
+        padding-bottom: 45px;
+    }
+
+
+    /*//////////////////imagem//////////////////*/
+    
+    
+    #sobre-imagem {
+        margin-top: ;          
+    }
+    
+    #imagem-sobre {
+        width: 30px;
+        margin:20px;
+    }
+    
+    #sobre-imagem2 { /*//meche o texto///*/
+        width: 70%;    
+        border-radius: 10px;       
+        text-align:left;
+        padding-bottom: 30px;
+        margin-top: 239px;
+    }
+    
+    #imagem-sobre p {
+        color:black;
+        
+    }
+    
+    #vacina{
+        width: 300px;
+        margin-left: 200px;
+        
+    }
+
+
+    /*////////////pizza////////////////////*/
+    
+    #grafico-pizza {
+        width: 800px;
+        height: 600px;
+        margin-right: 1000px;
+        margin: 0px;
+        margin-top: 400px;
+        margin-left: 80px;
+    }
+
+
+    h1, h3, h2 {
+        margin: 25px 0px;
+        margin:0px;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/*////////////////////////CELULAR//////////////////////////////////////*/
+@media(min-width:0px) and (max-width:576px){
+    body{
+        border: 0;
+        margin: 0;
+        padding: 0;
+        font-family:inherit;
+        background-color: #d7f1c1;
+        flex-direction: column;
+        height: 100vh;
+        font-size: 10px;
+    }
+    
+    @font-face{
+        font-family:inherit;
+        src:url('../fonts/Arkitech\ Medium.ttf') format('truetype')
+    }
+     
+    
+    header{
+        height: 110px;
+        background-color:hsl(0deg 0% 0.78%);
+        justify-content: space-between;
+        text-align: center;
+    }
+    
+    #logo{
+        width: 60px;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+   nav{
+        text-align: center;
+        
+       
+    }
+    header nav a {
+        text-decoration: none;
+        color:rgb(183, 239, 178);
+        padding: 1px 1px;
+        font-family:inherit;
+        font-size: 10px;
+        text-align: center;
+        margin-left: 18px;
+    }
+    
+    header h1{
+    color: rgb(183, 239, 178);
+    font-size: 17px;
+    margin: 0px;
+    margin-top: 30px;
+
+    }
+    
+    footer{
+        background-color:hsl(0deg 0% 0.78%);;
+        color:white;
+        font-size: 12px;
+        text-align: center;
+        
+        
+    }
+    
+    
+    
+    footer p{
+        font-family:inherit;
+        font-size: 12px;
+        color:rgb(183, 239, 178);
+        
+    }
+    
+    body h3{
+        margin-left: 320px;
+        padding:0px;
+        margin-left: 20px;
+        font-size: 12px;
+        
+    }
+
+    body h2{
+        font-size: 15px;
+    }
+    /*/////////////////////////////////////////////////////////////////////////*/
+    
+    #container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+    
+    body{
+        font-family:inherit;
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    
+    #container{
+        width: 20px;
+        height: 30px;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    h3 {
+        margin-right: 10px;
+        
+    }
+    
+    
+    /*///////////mapa//////////////*/
+    
+    #grafico-mapa {
+        width: 330px;
+        height: 400px !important;
+        margin-top: 300px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+       
+    }
+    
+    
+    /*///////////////////tabela//////////////////*/
+    
+    #grafico-tabela{
+        width: 5px;
+        height: 10px;
+     
+    }
+    
+    #text{
+        padding-left: 59px;
+        padding-right: 59px;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    #tabela-dados{
+        width: 5px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    th {
+        background-color:rgb(9, 57, 5);
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 2px 10px;
+    }
+    
+    .listra {
+        background-color: rgb(181, 214, 178);
+     
+    }
+    
+    
+    #grafico-tabela {
+        background-color: firebrick;
+        color: white;
+        padding: 10px 10px;
+        border-radius: 10px;
+        border: none;
+        display: none;       
+        margin: 25px 0px;
+        margin-left: ;
+        width: 20px;
+
+    }
+    
+    #separar{
+        padding-bottom: 45px;
+    }
+
+
+    /*//////////////////imagem//////////////////*/
+    
+    
+    #sobre-imagem {
+        margin:0px ;          
+    }
+    
+    #imagem-sobre {
+        width: 30px;
+        margin:20px;
+    }
+    
+    #sobre-imagem2 { /*//meche o texto///*/
+        width: 70%;    
+        border-radius: 10px;       
+        text-align:left;
+        padding-bottom: 30px;
+        margin-top: 239px;
+        margin-left: 10px;
+    }
+    
+    #imagem-sobre p{
+        color:black;
+        margin-right: 30px;
+    }
+    
+    #vacina{
+        width: 300px;
+        margin-left: 25px;
+        
+    }
+
+    
+    /*////////////pizza////////////////////*/
+    
+    #grafico-pizza {
+        width: 0px;
+        height: 0px;
+        margin-right: 1000px;
+        margin: 0px;
+        margin-top: 60px;
+
+    }
+    h1, h3, h2 {
+        margin: 25px 0px;
+        margin:0px;
+        margin-top: 60px;
+        margin-left: 20px;
+    }
+}
